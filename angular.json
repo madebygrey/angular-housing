@@ -79,14 +79,6 @@
           "options": {
             "browserTarget": "housing:build"
           }
-        },
-        "test": {
-          "builder": "@angular-builders/jest:run",
-          "options": {
-            "jestConfig": ["jest.config.js"],
-            "tsConfig": "tsconfig.spec.json",
-            "setupFile": ["src/test-setup.ts"]
-           }
         }
       }
     }
